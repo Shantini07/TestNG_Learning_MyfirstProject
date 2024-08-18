@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Regression Test Suite">
+
+    <test name="Running All Regression Test Cases">
+        <groups>
+            <run>
+                <include name="regression"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="newScripts.TestScenario_001"/>
+            <class name="newScripts.TestScenario_002"/>
+            <class name="newScripts.TestScenario_003"/>
+        </classes>
+    </test>
+
+</suite>
+

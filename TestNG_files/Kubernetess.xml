@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite1" parallel="tests" thread-count="2">
+
+    <test name="Kubernetes_HeaderMenu">
+        <classes>
+            <class name="scripts.Kubernetes"/>
+        </classes>
+    </test>
+
+
+    <test name="Kubernetes_PrintLinks">
+        <classes>
+            <class name="scripts.Kubernetes_PrintLinks"/>
+        </classes>
+    </test>
+
+    <test name="Kubernetes_HeaderMenu1">
+        <classes>
+            <class name="scripts.Kubernetes"/>
+        </classes>
+    </test>
+
+
+    <test name="Kubernetes_PrintLinks1">
+        <classes>
+            <class name="scripts.Kubernetes_PrintLinks"/>
+        </classes>
+    </test>
+
+
+</suite>

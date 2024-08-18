@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Priority Test Suite">
+
+    <test name="Running Test Cases As per priority">
+        <classes>
+            <class name="newScripts.TestScenario_004"/>
+        </classes>
+    </test>
+
+</suite>
+
