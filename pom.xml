@@ -49,7 +49,7 @@
                 <version>3.3.1</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>TestNG_files/regressionTest.xml</suiteXmlFile>
+                        <suiteXmlFile>TestNG_files/Saucelab.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
 
